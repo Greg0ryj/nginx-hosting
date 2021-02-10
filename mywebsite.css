@@ -1,0 +1,42 @@
+  html, body {
+    height: 100%
+  }
+ .jumbotron {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 0;
+    background-color: #e99090;
+  }
+  @media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  nav {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding: 2.5rem 0;
+    text-align: center; 
+    background-color: #110b0b;
+  }
+
+  .jumbotron h1 {
+    font-weight: 600;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+  
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding: 2.5rem 0;
+    text-align: center;
+    background-color: #110b0b;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
